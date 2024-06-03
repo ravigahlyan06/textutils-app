@@ -19,6 +19,8 @@ function App() {
     setTimeout(() => {
       setAlert(null);
     }, 2000);
+
+    console.log("Showing alert")
   };
 
   const toggleMode = () => {
